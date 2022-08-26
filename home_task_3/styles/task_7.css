@@ -1,0 +1,40 @@
+.container {
+  max-width: 800px;
+  border: 1px solid rgb(151, 142, 142);
+  box-shadow: 1px 2px 2px rgb(183, 171, 171);
+  margin: 10px auto;
+  padding: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+.task {
+  text-align: center;
+  font-style: oblique;
+  font-weight: 700;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px green;
+}
+button {
+  font-size: 20px;
+  border-radius: 50%;
+  background: rgb(77, 214, 168);
+  box-shadow: 1px 2px 2px rgb(118, 109, 109);
+}
+.text {
+  margin: 30px 10px;
+}
+.text-green {
+  color: rgb(57, 184, 57);
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+p:first-letter {
+  color: red;
+}

@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  border: 1px solid rgb(151, 142, 142);
+  box-shadow: 1px 2px 2px rgb(183, 171, 171);
+  margin: 10px auto;
+  padding: 30px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+}
+ul:not(ul.first) {
+  margin-left: 50px;
+}
+/* ul:not(ul.first) li::before {
+  content: "\2022";
+  font-size: 30px;
+  line-height: 1ex;
+  margin-right: 5px;
+} */
+.title:visited {
+  color: blue;
+}
+.text-red {
+  color: red;
+}
+.text-yellow {
+  color: rgb(246, 207, 34);
+}
+.text-gray {
+  color: gray;
+}
+.text-blue {
+  color: rgb(128, 155, 229);
+}
+.all {
+  color: green;
+  text-align: right;
+}
+span {
+  font-size: 0.8em;
+}

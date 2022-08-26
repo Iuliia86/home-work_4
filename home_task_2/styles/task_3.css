@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  border: 1px solid rgb(151, 142, 142);
+  box-shadow: 1px 2px 2px rgb(183, 171, 171);
+  margin: 10px auto;
+  padding: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+.task {
+  text-align: center;
+  font-style: oblique;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 20px;
+  text-shadow: 1px 1px 1px green;
+}
+.formation {
+  font-size: 20px;
+}
+p a:nth-child(2) {
+  color: green;
+}
+p a:nth-child(3) {
+  color: red;
+}
+.ok {
+  color: brown;
+}
+[id] {
+  font-weight: 700;
+  color: yellow;
+}
+.last {
+  font-weight: 700;
+  color: brown;
+}

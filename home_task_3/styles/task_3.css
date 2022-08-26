@@ -1,0 +1,60 @@
+.container {
+  max-width: 800px;
+  border: 1px solid rgb(151, 142, 142);
+  box-shadow: 1px 2px 2px rgb(183, 171, 171);
+  margin: 10px auto;
+  padding: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+.task {
+  text-align: center;
+  font-style: oblique;
+  font-weight: 700;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px green;
+}
+button {
+  font-size: 20px;
+  border-radius: 50%;
+  background: rgb(77, 214, 168);
+  box-shadow: 1px 2px 2px rgb(118, 109, 109);
+}
+table {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  font-size: 20px;
+  margin: 30px auto;
+}
+thead td {
+  border: 1px solid grey;
+  background-color: rgb(211, 203, 203);
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: rgb(245, 227, 146);
+}
+tr:nth-child(even) {
+  background-color: rgb(160, 160, 184);
+}
+tr:first-child {
+  background-color: rgb(129, 159, 73);
+}
+td:not(:first-child) {
+  width: 100px;
+}
+tbody tr:nth-child(n + 2) {
+  text-align: right;
+}
+tbody td:nth-child(2),
+.text {
+  text-align: left;
+}
+td {
+  padding: 2px;
+}

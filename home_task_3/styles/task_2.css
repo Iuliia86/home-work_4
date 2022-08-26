@@ -1,0 +1,54 @@
+.container {
+  max-width: 800px;
+  border: 1px solid rgb(151, 142, 142);
+  box-shadow: 1px 2px 2px rgb(183, 171, 171);
+  margin: 10px auto;
+  padding: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 500px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+.task {
+  text-align: center;
+  font-style: oblique;
+  font-weight: 700;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px green;
+}
+button {
+  font-size: 20px;
+  border-radius: 50%;
+  background: rgb(77, 214, 168);
+  box-shadow: 1px 2px 2px rgb(118, 109, 109);
+}
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 40px;
+  text-align: center;
+}
+.block {
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgb(77, 214, 168);
+  margin: -3px;
+  padding: 10px;
+}
+.block div:not(.strong) {
+  border: 1px solid rgb(148, 137, 137);
+  background-color: #fff;
+  padding: 5px;
+  width: 150px;
+  color: blue;
+  text-align: left;
+  text-decoration: underline;
+}
+.strong {
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: left;
+}
